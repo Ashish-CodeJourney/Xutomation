@@ -67,7 +67,7 @@ const SetupGuide = () => {
             </p>
             <ol className="list-decimal list-inside mt-3 text-sm space-y-2 text-slate-600 dark:text-slate-400">
               <li>Go to your GitHub repository</li>
-              <li>Navigate to Settings > Secrets and variables > Actions</li>
+              <li>Navigate to Settings {'>'} Secrets and variables {'>'} Actions</li>
               <li>Add the following secrets:
                 <ul className="list-disc list-inside ml-5 mt-1 space-y-1">
                   <li><code className="code-inline">TWITTER_API_KEY</code></li>
